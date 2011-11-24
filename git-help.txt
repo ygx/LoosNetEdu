@@ -1,0 +1,2 @@
+git clone https://git@github.com/ygx/LoosNetEdu.git
+git pull origin master
