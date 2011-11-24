@@ -1,0 +1,74 @@
+ <asp:SqlDataSource ID="SqlDataSections" runat="server" DataSourceMode="DataSet" 
+                                               ConnectionString="<%$ ConnectionStrings:DBMenuTubeConnectionString %>"
+                                               ProviderName="<%$ ConnectionStrings:DBMenuTubeConnectionString.ProviderName %>"
+                                               SelectCommand="SELECT Id, Section FROM TSections ORDER BY Section ASC">
+                            </asp:SqlDataSource>
+                            <asp:SqlDataSource ID="SqlDataLiens" runat="server" DataSourceMode="DataSet" 
+                                               ConnectionString="<%$ ConnectionStrings:DBMenuTubeConnectionString %>"
+                                               ProviderName="<%$ ConnectionStrings:DBMenuTubeConnectionString.ProviderName %>"
+                                               SelectCommand="SELECT * FROM TLiens where Id_Section=:theID">                                               
+                                                <SelectParameters>
+                                                    <asp:Parameter Name="theID"  />
+                                                </SelectParameters>
+                            </asp:SqlDataSource>
+                            <asp:datalist id="DataList1" runat="server" OnItemDataBound="DataList1_OnItemDataBound"
+                                          DataSourceID="SqlDataSections">
+                                        <ItemTemplate>
+                                            <tr>
+                                                <td class="gestionvillecolonne2"><span class="gras"><asp:Hyperlink id="Activite" runat="server" Text='<%# Server.HtmlDecode(DataBinder.Eval(Container.DataItem, "Section").ToString()) %>'></asp:Hyperlink></span></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="gestionvillecolonne2"> </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="gestionvillecolonne2">  
+                                                <asp:datalist id="DataList2" runat="server" 
+                                                              DataSourceID="SqlDataLiens" 
+                                                              DataKeyField="Id">
+                                                            <ItemTemplate>
+                                                                <tr>
+                                                                    <td class="gestionvillecolonne2"><asp:Hyperlink Width="300px" CssClass="lien_ext" id="Activite" runat="server" NavigateUrl='<%# Server.HtmlDecode(DataBinder.Eval(Container.DataItem, "NavigateUrl").ToString()) %>' Text='<%# Server.HtmlDecode(DataBinder.Eval(Container.DataItem, "Titre").ToString()) %>'></asp:Hyperlink></td>
+                                                                    <td></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="gestionvillecolonne2"> </td>
+                                                                    <td></td>
+                                                                </tr>
+                                                            </ItemTemplate>
+                                                </asp:datalist>                                              
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                        </ItemTemplate>
+                            </asp:datalist>
+
+ ---------------------------
+
+And code behind :
+
+    protected void DataList1_OnItemDataBound(Object sender, DataListItemEventArgs e)
+    {
+        SqlDataSource SqlDataLiens = (SqlDataSource)e.Item.FindControl("SqlDataLiens");
+        DataRowView drv = (DataRowView)e.Item.DataItem;
+        string Section = drv["Id"].ToString();
+        this.SqlDataLiens.SelectParameters[0].DefaultValue = Section;
+    }
+ ---------------------------
+
+
+  Dim sqlCommand As String = "select * from [Drug_Info] Where (Drug_Name = ?) and (Price between ? and ?) and(Producer = ?) and (Adaptation = ?)"
+        SqlDataSource1.SelectParameters.Add(New Parameter("drug_Name", TypeCode.String, Nothing))
+        SqlDataSource1.SelectParameters.Add(New Parameter("price1", TypeCode.Double, Nothing))
+        SqlDataSource1.SelectParameters.Add(New Parameter("price2", TypeCode.Double, Nothing))
+        SqlDataSource1.SelectParameters.Add(New Parameter("producer", TypeCode.String, Nothing))
+        SqlDataSource1.SelectParameters.Add(New Parameter("adapt", TypeCode.String, Nothing))
+
+        SqlDataSource1.SelectParameters.Add("Drug_Name", TextBox1.Text.Trim())
+        SqlDataSource1.SelectParameters.Add("price1", TextBox2.Text.Trim())
+        SqlDataSource1.SelectParameters.Add("price2", TextBox3.Text.Trim())
+        SqlDataSource1.SelectParameters.Add("producer", TextBox4.Text.Trim())
+        SqlDataSource1.SelectParameters.Add("adapt", TextBox5.Text.Trim())
+
+        SqlDataSource1.Select(New DataSourceSelectArguments())

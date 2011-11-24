@@ -1,0 +1,46 @@
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="75%">
+  <TR>
+
+    <TD height=393 vAlign=center width=351>
+	<div style="position: absolute; width: 217px; height: 173px; z-index: 6; left: 161px; top: 209px" id="layer1">
+　<P align=center><TABLE border=0 width="432"><TBODY><TR>
+		<TD style="FILTER: Alpha(opacity=100,style=2)" width=426 background=init/image/back.gif height=296><P><B><EMBED align=right src=init/flash/77.swf width=420 height=296 type=application/octet-stream quality="high" wmode="transparent"><EMBED pluginspage=http://www.macromedia.com/go/getflashplayer align=right src=init/flash/16.swf width=420 height=296 type=application/x-shockwave-flash wmode="transparent" quality="high"></EMBED></B></P></TD></TR></TOBDY></TBODY></TABLE></P> </div>
+　<p><BR>
+    </p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</TD>
+    <TD height=393 vAlign=top width="426"><BR>
+
+<TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR>
+          <TD>
+			<DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>系统简介</DIV>
+          </TD>
+		</TR>
+</TABLE>
+      <p><font size="2">鲁斯网络老师是一个多媒体网络教学系统，由袁高翔独立开发完成。本项目参考网上的一些源代码，主要以开发者本人的研究为主，结合专业课学到的知识，耗时3个多月完成的。主要分为课件下载、作业上传、师生留言、在线视频、即时通讯等几大模块。实现了基于B/S结构的多媒体网络教学系统。</font>　</p>
+<TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR>
+          <TD><DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>核心技术</DIV>
+          </TD>
+		</TR>
+</TABLE>
+      <p><font size="2">本项目以Visual Studio 2005为主要开发工具，用到了SQL 2000数据库技术、XML数据库技术、FMS流媒体控制技术、多线程即时通讯技术等。</font> </P>
+<TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR>
+          <TD><DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>远程教学</DIV>
+          </TD>
+		</TR>
+</TABLE>
+      <p><font size="2">本项目可以实现网络教学，网络教学具有信息容量大、资料更新快、模拟生动的显著特征，网络课堂中可以随时下载任课教师的讲义和教案，直接提交作业，并和其他同学进行在线交流等。</font></P>
+	<P>　</P>

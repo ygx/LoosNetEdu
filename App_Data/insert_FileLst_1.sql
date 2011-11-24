@@ -1,0 +1,1 @@
+exec insert_FileLst_1 ad,"http://sasqs",txt,sa,080101

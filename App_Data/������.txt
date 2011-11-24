@@ -1,0 +1,7 @@
+CREATE TRIGGER delf ON [dbo].[FileLst] 
+FOR DELETE 
+AS
+declare @name varchar,@nick varchar
+set @name= (select Filnm from Deleted)
+set @nick= (select NickNm from Deleted)
+exec   master..xp_cmdshell 'del ' + @path + '\files\' + @nick + '\' + @name
