@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312"?>
+<guestbook>
+  <liuyan>
+    <id>1</id>
+    <name>我来了</name>
+    <email>747980089@qq.com</email>
+    <qq>747980089</qq>
+    <comment>留言不回说话啊！！</comment>
+    <datatime>2009-12-27 17:27:15</datatime>
+    <back>51aspx测试</back>
+  </liuyan>
+  <liuyan>
+    <id>3</id>
+    <name>我不会啊</name>
+    <email>564661@qq.com</email>
+    <qq>4196465</qq>
+    <comment>迫使开发了解 地思考福建省手机的分考生将快速地激发肯定就是打开两个所接受地方离开教室发神经快睡觉是速度飞</comment>
+    <datatime>2009-12-27 17:45:58</datatime>
+    <back>
+    </back>
+  </liuyan>
+  <liuyan>
+    <id>5</id>
+    <name>a</name>
+    <email>a@a.com</email>
+    <qq>a</qq>
+    <comment>aadwdadaw</comment>
+    <datatime>2010-3-26 11:44:47</datatime>
+    <back>
+    </back>
+  </liuyan>
+  <liuyan>
+    <id>8</id>
+    <name>游客</name>
+    <email>local@host.ss</email>
+    <qq>13800138000</qq>
+    <comment>f</comment>
+    <datatime>2010-3-26 14:28:08</datatime>
+    <back>&amp;lt;br / &amp;gt;单反</back>
+  </liuyan>
+  <liuyan>
+    <id>9</id>
+    <name>老师</name>
+    <email>local@host.ss</email>
+    <qq>13800138000</qq>
+    <comment>旋转</comment>
+    <datatime>2010-3-26 14:29:31</datatime>
+    <back>骚发展&lt;br / &gt;饭</back>
+  </liuyan>
+  <liuyan>
+    <id>10</id>
+    <name>游客</name>
+    <email>
+    </email>
+    <qq>
+    </qq>
+    <comment>dwdw</comment>
+    <datatime>2010-3-26 15:11:37</datatime>
+    <back>
+    </back>
+  </liuyan>
+</guestbook>

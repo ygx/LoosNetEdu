@@ -1,0 +1,151 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<HTML xmlns="http://www.w3.org/1999/xhtml"><head id="Head1" runat=server>
+<TITLE></TITLE>
+<META content=Download name=title>
+<META content=Administrator name=author>
+<META content="MSHTML 6.00.3790.2858" name=GENERATOR>
+<META content="index, follow" name=robots>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<LINK href="img/ready/template_css.css" type=text/css rel=stylesheet>
+</HEAD>
+<BODY background="img/ready/back.png">
+<form runat="server" id="myform">
+<TABLE cellSpacing=0 cellPadding=0 width=900 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE height=0 cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=left width=28 rowSpan=2><IMG height=191 
+            src="img/ready/head_left.png" width=28></TD>
+          <TD vAlign=top>
+            <TABLE height=39 cellSpacing=0 cellPadding=0 width="100%" 
+            background="img/ready/head.png" border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=top>
+                  <DIV class=date align=left><%=DateTime.Now %></DIV></TD>
+                <TD vAlign=top align=right>
+                  <TABLE style="MARGIN-TOP: 7px; MARGIN-RIGHT: 5px"  cellSpacing=0 cellPadding=0 border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=8>
+                        <DIV style="BACKGROUND-IMAGE: url(img/ready/top_left.gif); TEXT-ALIGN: right">
+                        <IMG style="FILTER: Alpha(opacity=55, finishopacity=6, style=2)"  height=26 src="img/ready/top_left.png" width=8 border=0></DIV></TD>
+                      <TD style="BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(img/ready/top_back.png)" vAlign=top>
+                        <TABLE class=moduletable cellSpacing=0 cellPadding=0>
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <UL id=mainlevel-nav>
+                                <LI><A class=mainlevel-nav href="">Download</A></LI>
+                                <LI><A class=mainlevel-nav href="~/UpLoad.aspx?type=shut" target=_self>µÇ³ö</A></LI></UL></TD></TR></TBODY></TABLE></TD>
+                      <TD width=8><IMG height=26 
+                        src="img/ready/top_right.png" 
+                      width=8></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=top align=right width=28 rowSpan=2><IMG height=191 
+            src="img/ready/head_right.png" width=28></TD></TR>
+        <TR>
+          <TD vAlign=top>
+            <TABLE height=152 cellSpacing=0 cellPadding=0 width="100%" 
+            background="img/ready/head_center.png" border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=top>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD class=title style="PADDING-LEFT: 8px" width=234 height=100></TD></TR>
+                    <TR>
+                      <TD colSpan=2><!-- BEGIN MENU -->
+                        <DIV>
+                        <DIV id=navcontainer>
+                        <UL id=navlist>
+                          <LI><A class=images href="Default.htm">Ê×Ò³</A> 
+                          <LI><A class=images href="Reg.aspx">×¢²á</A> 
+                          <LI id=active>
+                         
+                      </UL></DIV></DIV><!-- END MENU -->
+                        <DIV class=pathway><SPAN class=pathway>Ê×Ò³
+                        <IMG alt=arrow   src="img/ready/arrow.png" border=0> 
+<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></SPAN></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=900 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+      background="img/ready/back_content.png" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=left width=8><IMG height=141 src="img/ready/left_line.png" width=8><BR></TD>
+          <TD vAlign=top>
+            <TABLE style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px" cellSpacing=0  cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width="0%" 
+                      vAlign=top style="BORDER-RIGHT: #daddd0 1px solid"></TD>
+                      <TD  style="BORDER-RIGHT: #fff 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 5px; width: 100%;" vAlign=top>
+                        <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                          <TBODY>
+                          <TR vAlign=top></TR>
+                          <TR></TR>
+                          <TR>
+                            <TD colSpan=3 height=4 style="width: 525px">
+                              <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><IMG height=4 
+                                src="img/ready/space.gif" 
+                                width=100></TD></TR></TBODY></TABLE>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </TD></TR>
+                          <TR vAlign=top align=left>
+                            <TD colSpan=3 style="width: 525px">&nbsp;</TD>
+                          </TR>
+                          <TR>
+                            <TD colSpan=3 style="width: 525px">
+                              <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><IMG height=4 
+                                src="img/ready/space.gif" 
+                                width=100></TD></TR></TBODY></TABLE></TD></TR>
+                          <TR vAlign=top></TR></TBODY></TABLE></TD>
+                      <TD width="37%" vAlign=top style="BORDER-LEFT: #daddd0 1px solid">&nbsp;</TD>
+                    </TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=top align=right width=8><IMG height=141 
+            src="img/ready/right_line.png" 
+        width=8></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <TABLE height=46 cellSpacing=0 cellPadding=0 width="100%" 
+      background="img/ready/bottom.png" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=middle><IMG height=46 
+            src="img/ready/space.gif" width=46 useMap=#Map 
+            border=0></TD>
+        </TR></TBODY></TABLE>
+      <DIV class=footer align=center>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=bottom align=right width=80>&nbsp;</TD>
+          <TD vAlign=center align=middle>&nbsp;</TD>
+          <TD vAlign=bottom align=right width=40>
+          </TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><BR><MAP id=Map name=Map>
+            </MAP><DIV id=d30278></DIV>
+
+</form>
+</BODY></HTML>
