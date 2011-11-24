@@ -1,0 +1,256 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<TITLE>鲁斯网络老师 - 首页</TITLE>
+<STYLE type=text/css>
+
+<!--
+
+body { font-family:"Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt}
+
+p {  font-family:"Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt}
+
+a:link {  color: #0000FF; text-decoration: none}
+
+a:visited {  text-decoration: none}
+
+a:hover {  color: #FF0033; text-decoration: underline}
+
+td {  font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt}
+
+.CompanyName {font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 23pt}
+
+-->
+
+</STYLE>
+<script src="init/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</HEAD>
+<BODY bgColor=#ffffff background="init/image/cell_back1.gif" style="background-attachment: fixed">
+
+<style type="text/css">
+<!--
+#floatmenu{position:absolute; width: 220px; top: 10px; left: 10px; z-index:5; visibility:visible;}
+-->
+</style>
+
+
+<script language = "javascript">
+<!--
+
+function FixMenuY(){
+document.getElementById('floatmenu').style.top = document.body.scrollTop + 10;
+}
+
+setInterval("FixMenuY()",200);
+
+theObjects = document.getElementsByTagName("object");
+for (var i = 0; i < theObjects.length; i++) {
+theObjects[i].outerHTML = theObjects[i].outerHTML;}
+
+//-->
+</script>
+
+<DIV align=center>
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="74%">
+  <TR>
+    <TD width="2%">　</TD>
+    <TD width="2%">　</TD>
+    <TD width="3%">　</TD>
+    <TD bgColor=#006500 width="2%">　</TD>
+    <TD width="5%">　</TD>
+    <TD width="2%">　</TD>
+    <TD width="2%">　</TD>
+    <TD bgColor=#ce3000 width="2%">　</TD>
+    <TD width="11%">　</TD>
+    <TD width="2%">　</TD>
+    <TD width="5%">　</TD>
+    <TD bgColor=#ff9a00 width="2%">　</TD>
+    <TD width="7%">　</TD>
+    <TD width="2%">　</TD>
+    <TD width="16%">　</TD>
+    <TD bgColor=#00a200 width="2%">　</TD>
+    <TD width="12%">　</TD>
+    <TD width="2%">　</TD>
+    <TD width="16%">　</TD>
+    <TD bgColor=#006500 width="3%">　</TD>
+  </TR>
+</TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="75%">
+  <TR>
+    <TD bgColor=#006600 height=13 rowSpan=2 width="19%">　</TD>
+    <TD bgColor=#ce3000 rowSpan=2 width="8%">　</TD>
+    <TD bgColor=#ff9900 height=13 rowSpan=2 width="15%">　</TD>
+    <TD bgColor=#949231 height=13 rowSpan=2 width="14%">　</TD>
+    <TD bgColor=#00a200 height=13 rowSpan=2 width="44%">　</TD>
+  </TR>
+  <TR></TR>
+</TABLE>
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="75%">
+  <TR>
+    <TD height=50><img border="0" src="img/logo3.jpg" width="120" height="69"></TD>
+    <TD height=50><DIV align=center class=CompanyName>
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+width="442" height="76" id="olmpic" align="">
+<param name=movie value="init/flash/olmpic.swf"><param name=quality value=high>
+<embed src="flash\olmpic.swf" quality=high  width="442" height="76" name="olmpic" align=""
+type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+</embed></object></DIV></TD>
+    <TD vAlign=bottom><DIV align=right><img border="0" src="img/logo3.jpg" width="120" height="69"></DIV></TD> 
+  </TR>
+  <TR>
+    <TD colSpan=3>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR><TD bgColor=#ffcc00 height=1><DIV align=center></DIV></TD></TR>
+	  </TABLE>	</TD>
+  </TR>
+  <TR>
+    <TD colSpan=3 height=12>
+      <DIV align=center><B>
+		<A href="Down.htm"><font color="#FF00FF">课件下载</font><FONT color=#ff9900 size=3> | </FONT> 
+		<A href="UpLoad.aspx"><FONT color=#3169a5>作业提交</FONT></A><FONT color=#ff9900 size=3> | </FONT> 
+		<A href="Notes.aspx"><FONT color=#3169a5>个人便笺</FONT></A><FONT color=#ff9900 size=3> | </FONT> 
+		<A href="Camara.aspx"><FONT color=#3169a5>视频对话</FONT></A><FONT color=#ff9900 size=3> | </FONT> 
+		<A href="Share.aspx"><FONT color=#3169a5>共享文件</FONT></A><FONT color=#ff9900 size=3> | </FONT>
+	    <A href="NoteBook\Welcome.aspx"><FONT color=#3169a5>留言板</FONT></A></B></DIV>	</TD>
+  </TR>
+  <TR>
+    <TD colSpan=3>
+      <DIV align=left>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR><TD bgColor=#ffcc00 height=2><DIV align=center></DIV></TD></TR>
+	  </TABLE>
+	  </DIV>    </TD>
+  </TR>
+</TABLE>
+</DIV>
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="75%">
+  <TR>
+    <TD height=393 vAlign=center width=351>
+	<div style="position: absolute; width: 217px; height: 173px; z-index: 6; left: 161px; top: 209px" id="layer1">
+　<P align=center><TABLE border=0 width="432"><TBODY><TR>
+		<TD style="FILTER: Alpha(opacity=100,style=2)" width=426 background=init/image/back.gif height=296><P><B><EMBED align=right src=init/flash/77.swf width=420 height=296 type=application/octet-stream quality="high" wmode="transparent"><EMBED pluginspage=http://www.macromedia.com/go/getflashplayer align=right src=init/flash/16.swf width=420 height=296 type=application/x-shockwave-flash wmode="transparent" quality="high"></EMBED></B></P></TD></TR></TOBDY></TBODY></TABLE></P> </div>
+　<p><BR>
+    </p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</p>
+	<p>　</TD>
+    <TD height=393 vAlign=top width="426"><BR>
+      <TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%" height="26">
+        <TR>
+          <TD>
+			<DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>系统简介</DIV></TD>
+		</TR>
+	  </TABLE>
+      &nbsp;鲁斯网络老师是一个多媒体网络教学系统，由袁高翔独立开发完成。本项目参考网上的一些源代码，主要以开发者本人的研究为主，结合专业课学到的知识，耗时3个多月完成的。主要分为课件下载、作业上传、师生留言、在线视频、即时通讯等几大模块。实现了基于B/S结构的多媒体网络教学系统。<p>　</p>
+      <TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR>
+          <TD><DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>核心技术</DIV></TD>
+		</TR>
+	  </TABLE>
+      <P><FONT color=#000000><BR>
+      </FONT><font size="2">本项目以Visual Studio 2005为主要开发工具，用到了SQL 2000数据库技术、XML数据库技术、FMS流媒体控制技术、多线程即时通讯技术等。</font> </P>
+	<P>　</P>
+      <TABLE bgColor=#ffffff border=0 cellPadding=0 cellSpacing=0 width="100%" id="table2">
+        <TR>
+          <TD><DIV STYLE="FONT-SIZE: 25pt; FILTER: glow(color=palegreen,offx=10,offy=10,positive=2); WIDTH: 191px; COLOR: green; FONT-FAMILY: 隶书; POSITION: relative; height:40px">
+&nbsp;<wbr>远程教学</DIV></TD>
+		</TR>
+	  </TABLE>
+      <P><FONT color=#000000><BR>
+      </FONT><font size="2">
+		本项目可以实现网络教学，网络教学具有信息容量大、资料更新快、模拟生动的显著特征，网络课堂中可以随时下载任课教师的讲义和教案，直接提交作业，并和其他同学进行在线交流等。</font>
+		</P>
+	<P>　</P> 	</TD>
+    <TD bgColor=#ffcc00 height=393 vAlign=top width=5></TD>
+    <TD bgColor=#ffffff height=393 vAlign=top width=149>
+      <DIV align=right>
+      <P align=left><B><FONT color=#ff0000 size=3><BR>
+      </FONT><font size="3" color="#00A200">友情链接</font></B></P>
+      <P align=left> </P>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.google.cn">
+			<font color="#FF9C00"><b>谷歌</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.baidu.com"><font color="#FF9C00"><b>百度</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.renren.com"><font color="#FF9C00"><b>人人</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.taobao.com"><font color="#FF9C00"><b>淘宝</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.sina.com.cn"><font color="#FF9C00"><b>新浪</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.tudou.com"><font color="#FF9C00"><b>土豆</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.qq.com"><font color="#FF9C00"><b>腾讯</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.xunlei.com"><font color="#FF9C00"><b>迅雷</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://www.163.com"><font color="#FF9C00"><b>网易</b></font></a></DIV></TD>
+		</TR>
+        <TR>
+          <TD height=25 width="20%"><DIV align=right><IMG height=12 src="./init/image/point.gif" width=12></DIV></TD>
+          <TD><DIV align=center><a href="http://bbs.aptx.cn"><font color="#FF9C00"><b>45所</b></font></a></DIV></TD>
+		</TR>
+	  </TABLE>
+	  <p align="left"><b><font color="#00A200" size="3">&nbsp; </font></b></p>
+		<p>　</DIV>	</TD>
+  </TR>
+  <TR vAlign=top>
+    <TD colSpan=4>
+      <DIV align=right>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="80%">
+        <TR bgColor=#ffcf00>
+          <TD height=1><DIV align=right></DIV></TD>
+		</TR>
+	  </TABLE>
+	  </DIV>
+      <DIV align=center>
+		<BR>网页设计制作：06计本2班 袁高翔<BR>
+	  </DIV>
+      <DIV align=right>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="90%">
+        <TR bgColor=#949231>
+          <TD height=2><DIV align=right></DIV></TD>
+		</TR>
+	  </TABLE>
+      <DIV align=center>
+		<FONT color=#3169a5 face="Arial, Helvetica, sans-serif" size=2>Copyright 2000 Lusay.All rights reserved.</FONT><FONT color=#3169a5> </FONT><BR>
+	  </DIV>
+      <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+        <TR bgColor=#006500>
+          <TD height=3><DIV align=right></DIV></TD>
+		</TR>
+	  </TABLE>
+	  </DIV>	</TD>
+  </TR>
+</TABLE>
+<EMBED style="LEFT: 200px; POSITION: absolute; TOP: 180px" align=right src=http://www.time.ac.cn/IMG/DigitalClock.swf width=165 height=63 type=application/x-shockwave-flash QUALITY="high" WMODE="transparent"></EMBED> 
+</BODY>
+</HTML>

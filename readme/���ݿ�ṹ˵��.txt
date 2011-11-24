@@ -1,0 +1,20 @@
+地址：App_Data\DiskSDB_Data.MDF
+
+用户名：sa；密码：sa
+库名：DiskSDB
+表：
+FileLst 文件列表
+	Filnm	varchar	50	显示名称
+	Url	varchar	255	文件路径
+	Type	char	10	文件类型
+	NickNm	char	10	用户名
+	Length	varchar	50	大小
+	Truenm	varchar	50	真实文件名
+	Share	bit	1	是否共享
+	Cls	int	4	初次1 返工2 已批3
+Users 用户表
+	NickNm	char	10	用户名/昵称
+	Psd	char	10	密码
+	Qx	int	4	权限 0为超管，1为普通用户(学生)，2为VIP(教师)
+
+Cookie：Usd，Qx

@@ -1,0 +1,1 @@
+del Thumbs.db /f/s/q/a

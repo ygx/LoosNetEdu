@@ -1,0 +1,51 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Lo.aspx.cs" Inherits="Lo" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>登陆页</title>
+</head>
+<body>
+    <form id="logon1" runat="server">
+    <div>
+       <table style="width: 281px; height: 114px">
+            <caption>
+                <asp:Label ID="Label1" runat="server" Text="用户登录"></asp:Label></caption>
+            <tr>
+                <td style="width: 181px">
+                    用户名</td>
+                <td>
+                    <input id="userNM" type="text" runat="server" style="width: 152px"  /></td>
+            </tr>
+            <tr>
+                <td style="width: 181px">
+                    密码</td>
+                <td>
+                    <input id="userPS1" style="width: 152px" type="password" runat="server" /></td>
+            </tr>
+           <tr>
+                <td style="width: 181px">
+                    <asp:Label ID="td1" runat="server" Text="登录到"></asp:Label></td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="136px">
+                        <asp:ListItem>首页</asp:ListItem>
+                        <asp:ListItem>上传页</asp:ListItem>
+                        <asp:ListItem>文件列表</asp:ListItem>
+                        <asp:ListItem>管理页</asp:ListItem>
+                        <asp:ListItem>留言板</asp:ListItem>
+                    </asp:DropDownList></td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="1" style="height: 24px">
+                    &nbsp;<input id="Submit2" type="submit" value="提交" style="left: 30%; position: relative; top: 0px" runat="server" onserverclick="Submit2_ServerClick" />
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp;&nbsp;<asp:Button id="ButBk" runat="server" Text="返回" OnClick="ButBk_Click"></asp:Button>
+                    </td>
+            </tr>
+        </table>
+    
+    </div>
+ </form>
+</body>
+</html>

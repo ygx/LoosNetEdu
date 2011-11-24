@@ -1,0 +1,12 @@
+Default.aspx	主页
+匿名上传文件，匿名批量上传文件，接受登陆用户信息以会员模式上传和批量上传文件
+Reg.aspx	注册
+用户注册，连数据库Users表
+Lo.aspx		登陆
+用户登陆，转入会员模式提交参数给主页
+Files.aspx	文件列表
+返回文件列表，连数据库FileLst表
+Share.aspx	共享文件列表
+类似于Files.aspx，查询提交分析页
+Admin.aspx	管理
+管理员直接操纵数据库的页面
